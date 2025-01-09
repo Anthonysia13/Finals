@@ -1,0 +1,48 @@
+<div class="container mt-4">
+    <h1 class="text-center">Q & A</h1>
+    <div class="mt-4">
+      <ol>
+        <li>
+          <h5><strong>How to create reactive forms?</strong></h5>
+          <p>Answer: To create reactive forms in Angular, you define your form structure using FormGroup, FormControl, and FormArray in your component's TypeScript, bind the form model to your HTML template using directives like formGroup and formControlName, and handle form submission and data access in your component's logic.</p>
+        </li>
+        <li class="mt-4">
+          <h5><strong>How to add built-in validation for email in reactive forms?</strong></h5>
+          <p>Answer: To add built-in email validation in a reactive form, use the Validators.email function within the FormControl definition for the email field.</p>
+        </li>
+        <li class="mt-4">
+          <h5><strong>How to add built-in validation for required fields in reactive forms?</strong></h5>
+          <p>Answer: To add built-in validation for required fields in a reactive form, you need to import the Validators class from &#64;angular/forms and then include Validators.required within the array of validators when creating your FormControl objects. This ensures that the firstName and lastName fields must have a value for the form to be considered valid.</p>
+        </li>
+        <li class="mt-4">
+          <h5><strong>How to add regex validation for reactive forms?</strong></h5>
+          <p>Answer: To add regex validation to a reactive form, you can use the Validators.pattern function, providing it with a regular expression string that defines the desired pattern. This function creates a validator that checks if the input matches the specified pattern.</p>
+        </li>
+        <li class="mt-4">
+          <h5><strong>How to generate routing?</strong></h5>
+          <p>Answer: To generate routing in a web application, you typically define routes using a routing library, which maps different URLs to specific components or views. This involves configuring the routes within your application, specifying the URL paths and the corresponding components to be displayed for each path. The library then handles the navigation and rendering of the appropriate content based on the URL entered by the user.</p>
+        </li>
+        <li class="mt-4">
+          <h5><strong>How to configure routes with parameters?</strong></h5>
+          <p>Answer: To configure routes with parameters, you typically use placeholders within the URL path, often denoted by colons followed by the parameter name.</p>
+        </li>
+        <li class="mt-4">
+          <h5><strong>What is DebounceTime in RxJS?</strong></h5>
+          <p>Answer: In RxJS, debounceTime is an operator that delays the emission of values from an observable stream until a specified amount of time has passed since the last emission. This is useful for preventing rapid bursts of events from overwhelming your application, especially when dealing with user input like typing in a search field.</p>
+        </li>
+        <li class="mt-4">
+          <h5><strong>What is pipe operator?</strong></h5>
+          <p>Answer: The pipe operator (|) in RxJS is a way to chain together multiple operators, transforming and manipulating an observable stream in a sequential fashion. It allows you to apply a series of operations to an observable stream, with each operator taking the output of the previous one as its input.</p>
+        </li>
+        <li class="mt-4">
+          <h5><strong>What is distinctUntilChanged operator?</strong></h5>
+          <p>Answer: The distinctUntilChanged operator in RxJS filters out consecutive emitted values from an observable stream that are considered "equal" based on a provided comparison function. It ensures that only unique values, those different from the previous one, are emitted, effectively preventing duplicate or redundant data from being processed.</p>
+        </li>
+        <li class="mt-4">
+          <h5><strong>What is filter operator in RxJs?</strong></h5>
+          <p>Answer: The filter operator in RxJS acts like a sieve, allowing only certain values from an observable stream to pass through based on a condition you define. You provide a function that takes each value in the stream as input and returns a boolean value: true if the value should be emitted, false if it should be filtered out.</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+  
